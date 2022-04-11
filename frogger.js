@@ -4,13 +4,13 @@ const context = canvas.getContext("2d");
 
 const frog = new Image();
 frog.src = "frogger.png";
-const sx = 0;
-const sy = 0;
-const sWidth = 40;
-const sHeight = 40;
+const sx = 50;
+const sy = 75;
+const sWidth = 800;
+const sHeight = 700;
 const x = 50;
-const y = 444;
-const width = 30;
+const y = 450;
+const width = 35;
 const height = 30;
 
 function drawBackground() {
